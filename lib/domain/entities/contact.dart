@@ -19,8 +19,8 @@ class Contact {
         phone = map['phone'],
         image = map['image'];
 
-  Map toMap() {
-    Map<String, dynamic> map = {
+  Map<String, Object?> toMap() {
+    Map<String, Object?> map = {
       'name': name,
       'email': email,
       'phone': phone,
